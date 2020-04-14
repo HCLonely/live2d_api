@@ -1,0 +1,120 @@
+{
+    "name": "model",
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "hit_areas": [
+        {
+            "name": "D_REF.HEAD",
+            "id": "D_REF.HEAD"
+        },
+        {
+            "name": "D_REF.BODY",
+            "id": "D_REF.BODY"
+        }
+    ],
+    "motions": {
+        "tap_D_REF.HEAD": [
+            {
+                "file": "anger.mtn",
+                "sound": "001.wav"
+            },
+            {
+                "file": "anger_loop.mtn",
+                "sound": "002.wav"
+            },
+            {
+                "file": "bashful.mtn",
+                "sound": "003.wav"
+            },
+            {
+                "file": "bashful_loop.mtn",
+                "sound": "004.wav"
+            },
+            {
+                "file": "confidence.mtn",
+                "sound": "005.wav"
+            },
+            {
+                "file": "confidence_loop.mtn",
+                "sound": "006.wav"
+            },
+            {
+                "file": "elapse.mtn",
+                "sound": "621.wav"
+            },
+            {
+                "file": "joy.mtn",
+                "sound": "008.wav"
+            },
+            {
+                "file": "joy2.mtn",
+                "sound": "009.wav"
+            },
+            {
+                "file": "joy2_loop.mtn",
+                "sound": "010.wav"
+            },
+            {
+                "file": "joy_loop.mtn",
+                "sound": "011.wav"
+            },
+            {
+                "file": "sleep.mtn",
+                "sound": "012.wav"
+            },
+            {
+                "file": "sleep_loop.mtn",
+                "sound": "013.wav"
+            },
+            {
+                "file": "surprise.mtn",
+                "sound": "014.wav"
+            },
+            {
+                "file": "surprise_loop.mtn",
+                "sound": "015.wav"
+            }
+        ],
+        "tap_D_REF.BODY": [
+            {
+                "file": "tap1.mtn",
+                "sound": "016.wav"
+            },
+            {
+                "file": "tap2.mtn",
+                "sound": "016.wav"
+            },
+            {
+                "file": "tap3.mtn",
+                "sound": "617.wav"
+            },
+            {
+                "file": "tap1.mtn"
+            },
+            {
+                "file": "tap2.mtn"
+            },
+            {
+                "file": "tap3.mtn"
+            },
+            {
+                "file": "tap1.mtn"
+            },
+            {
+                "file": "tap2.mtn"
+            },
+            {
+                "file": "tap3.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "loop.mtn"
+            }
+        ]
+    },
+    "lip_sync": "true",
+    "aniso_level": 5
+}

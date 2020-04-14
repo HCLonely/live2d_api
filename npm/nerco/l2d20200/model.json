@@ -1,0 +1,24 @@
+{
+    "name": "model",
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "hit_areas": [
+        {
+            "name": "D_REF.BODY",
+            "id": "D_REF.BODY"
+        },
+        {
+            "name": "D_REF.HEAD",
+            "id": "D_REF.HEAD"
+        }
+    ],
+    "motions": {
+        "idle": [
+            {
+                "file": "loop.mtn"
+            }
+        ]
+    }
+}

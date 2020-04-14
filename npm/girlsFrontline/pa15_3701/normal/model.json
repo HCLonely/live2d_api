@@ -1,0 +1,52 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "model.1024/texture_00.png"
+    ],
+    "motions": {
+        "": [
+            {
+                "file": "broken_1.mtn"
+            },
+            {
+                "file": "broken_2.mtn"
+            },
+            {
+                "file": "broken_3.mtn"
+            },
+            {
+                "file": "broken_4.mtn"
+            },
+            {
+                "file": "broken_5.mtn"
+            },
+            {
+                "file": "login.mtn"
+            },
+            {
+                "file": "shake.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "daiji_idle_01.mtn"
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF.FACE"
+        },
+        {
+            "name": "leg",
+            "id": "D_REF.LEG"
+        },
+        {
+            "name": "body",
+            "id": "D_REF.BODY"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "model.1024/texture_00.png"
+    ],
+    "motions": {
+        "": [
+            {
+                "file": "login.mtn"
+            },
+            {
+                "file": "shake.mtn"
+            },
+            {
+                "file": "touch_1.mtn"
+            },
+            {
+                "file": "touch_2.mtn"
+            },
+            {
+                "file": "touch_3.mtn"
+            },
+            {
+                "file": "touch_4.mtn"
+            },
+            {
+                "file": "touch_5.mtn"
+            },
+            {
+                "file": "wait_1.mtn"
+            },
+            {
+                "file": "wait_2.mtn"
+            },
+            {
+                "file": "wedding.mtn"
+            },
+            {
+                "file": "wedding_touch.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "daiji_idle_01.mtn"
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF.HEAD"
+        },
+        {
+            "name": "leg",
+            "id": "D_REF.LEG"
+        },
+        {
+            "name": "body",
+            "id": "D_REF.BODY"
+        }
+    ]
+}

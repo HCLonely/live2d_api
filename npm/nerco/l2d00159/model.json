@@ -1,0 +1,79 @@
+{
+    "name": "model",
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "hit_areas": [
+        {
+            "name": "D_REF.BODY",
+            "id": "D_REF.BODY"
+        },
+        {
+            "name": "D_REF.HEAD",
+            "id": "D_REF.HEAD"
+        }
+    ],
+    "motions": {
+        "tap_D_REF.BODY": [
+            {
+                "file": "anger.mtn"
+            },
+            {
+                "file": "anger_loop.mtn"
+            },
+            {
+                "file": "blues.mtn"
+            },
+            {
+                "file": "blues_loop.mtn"
+            },
+            {
+                "file": "cutin.mtn"
+            },
+            {
+                "file": "ease.mtn"
+            },
+            {
+                "file": "ease_loop.mtn"
+            },
+            {
+                "file": "joy_loop.mtn"
+            },
+            {
+                "file": "elapse.mtn"
+            },
+            {
+                "file": "joy.mtn"
+            },
+            {
+                "file": "ease_loop.mtn"
+            },
+            {
+                "file": "cutin.mtn"
+            },
+            {
+                "file": "blues_loop.mtn"
+            },
+            {
+                "file": "blues.mtn"
+            }
+        ],
+        "tap_D_REF.HEAD": [
+            {
+                "file": "tap1.mtn"
+            },
+            {
+                "file": "tap2.mtn"
+            },
+            {
+                "file": "tap3.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "loop.mtn"
+            }
+        ]
+    }
+}
