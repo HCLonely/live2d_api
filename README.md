@@ -9,6 +9,7 @@ Live2D 看板娘脚本 (https://github.com/HCLonely/live2d.user.js) 使用的后
 - 支持 单模型 单皮肤 切换、多组皮肤 递归穷举
 - 支持 同分组 多个模型 或 多个路径 的 加载切换
 - 轻量级，只保留 json 文件，模型使用 jsDelivr CDN
+- API请求统计
 
 ## 使用
 
