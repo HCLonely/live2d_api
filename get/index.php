@@ -2,6 +2,9 @@
 isset($_GET['id']) ? $id = $_GET['id'] : exit('error');
 header("Access-Control-Allow-Origin:*");
 
+$visitor=intval(file_get_contents('../visitor.txt'));
+file_put_contents('../visitor.txt',strval(++$visitor));
+
 require '../tools/modelList.php';
 require '../tools/modelTextures.php';
 require '../tools/jsonCompatible.php';
