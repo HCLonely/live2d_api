@@ -68,6 +68,6 @@ RewriteRule ^(.*)$ //cdn.jsdelivr.net/$1
 
 > (>▽<) 都看到这了，点个 Star 吧 ~
 
-**API 内所有模型 版权均属于[原作者](https://github.com/fghrsh/live2d_api)，仅供研究学习，不得用于商业用途**  
+**API 内所有模型 版权均属于原作者，仅供研究学习，不得用于商业用途**  
 
 MIT © FGHRSH
