@@ -15,8 +15,8 @@
 </head>
 <body>
   <h1 align="center">适用于<a href="https://github.com/HCLonely/live2d.user.js" style="text-decoration: none;">live2d.user.js</a>脚本的模型</h1>
-  <h3 align="center">可用模型更新到<?php echo $info["model"]; ?></h3>
-  <h2 align="left">API请求次数: <?php echo intval(file_get_contents('./visitor.txt')) ?></h2>
+  <h3 align="center">可用模型更新到<font style="color: red"><?php echo $info["model"]; ?></font></h3>
+  <h2 align="left">API请求次数: <font style="color: lime"><?php echo intval(file_get_contents('./visitor.txt')); ?></font></h2>
   <h2 align="left">模型请求统计</h2>
   <?php
   for($i=1;$i<=$info["package"];$i++){
